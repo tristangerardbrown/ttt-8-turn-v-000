@@ -21,11 +21,11 @@ end
 
 def input_to_index(input)
    input = input.to_i-1
- end
+end
 
 def move(board, input, value="X")
    board[input] = value
- end
+end
 
 def turn(board)
   puts "Please enter 1-9:"
@@ -39,4 +39,4 @@ def turn(board)
     move(board, index, character = "X")
     display_board(board)
 end
-end 
+ 
